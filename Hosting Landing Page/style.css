@@ -350,3 +350,69 @@ a:hover {
     color: rgb(89, 189, 89);
     margin: 10px;
 }
+
+@media screen and (max-width: 720px){
+    nav{
+        flex-direction: column;
+    }
+    .features {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .upper h1 {
+        font-size: 30px;
+    }
+
+    .boxs {
+        flex-direction: column;
+    }
+    .card {
+        margin: 30px 0;
+    }
+
+    .feedback-heading > p {
+        width: 500px;
+        position: relative;
+        left: 50px;
+    }
+
+    .register {
+        flex-direction: column;
+    }
+    .register h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .register p {
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .links-container {
+        width: 500px;
+        margin: 50px 0;
+    }
+
+    .menu {
+        width: 500px;
+        position: relative;
+        left: 0;
+        margin: 30px;
+    }
+
+    .features h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+}
